@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vue/runtime-dom": "latest",
+    "prettier": "^2.5.1",
     "typescript": "latest",
     "vue-tsc": "latest"
   }
