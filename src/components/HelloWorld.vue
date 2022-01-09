@@ -41,6 +41,11 @@ export default defineComponent({
       count,
     };
   },
+  watch: {
+    msg(newMsg, oldMsg) {
+      console.log(`msg changed from '${newMsg}' to '${oldMsg}'`);
+    },
+  },
 });
 </script>
 
